@@ -1,0 +1,1 @@
+cmd_/home/pi/dd-assignments/day_4/kern_chardyn/my_chardyn.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/dd-assignments/day_4/kern_chardyn/my_chardyn.ko /home/pi/dd-assignments/day_4/kern_chardyn/my_chardyn.o /home/pi/dd-assignments/day_4/kern_chardyn/my_chardyn.mod.o;  true

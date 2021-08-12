@@ -1,0 +1,1 @@
+cmd_/home/pi/dd-assignments/day_4/kern_charopcl/my_devopcl.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/dd-assignments/day_4/kern_charopcl/my_devopcl.ko /home/pi/dd-assignments/day_4/kern_charopcl/my_devopcl.o /home/pi/dd-assignments/day_4/kern_charopcl/my_devopcl.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/pi/dd-assignments/day_4/kern_chardyn/Module.symvers := sed 's/ko$$/o/' /home/pi/dd-assignments/day_4/kern_chardyn/modules.order | scripts/mod/modpost -m -a   -o /home/pi/dd-assignments/day_4/kern_chardyn/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,1 @@
+cmd_/home/pi/dd-assignments/day_4/kern_chardyn/modules.order := {   echo /home/pi/dd-assignments/day_4/kern_chardyn/my_chardyn.ko; :; } | awk '!x[$$0]++' - > /home/pi/dd-assignments/day_4/kern_chardyn/modules.order

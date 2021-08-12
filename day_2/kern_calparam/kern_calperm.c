@@ -7,7 +7,7 @@ MODULE_AUTHOR("ABRAR");
 
 static int a = 10;
 static int b = 20;
-static char* charvar = "add";
+static char* charvar = "";
 
 module_param(charvar, charp, S_IRUGO);
 module_param(a, int, S_IRUGO);
@@ -16,23 +16,23 @@ module_param(b, int,S_IRUGO);
 static int __init calperm_init(void)
 {
 	printk("in calculator\n");
-	if(charvar="add")
+	if(strcmp(charvar,"add")==0)
 	  {
 		  printk("in %s function",charvar);
                   printk("value of addition is : %d",my_add(a,b));
 	  }
-	else if(charvar="sub")
+	else if(strcmp(charvar,"sub")==0)
 	  {
 		  printk("in %s function",charvar);
                   printk("value of subtraction is : %d",my_sub(a,b));
 
 	  }
-	else if(charvar = "mul")
+	else if(strcmp(charvar,"mul")==0)
 	  {
 		  printk("in %s function",charvar);
                   printk("value of multiplication is : %d",my_mul(a,b));
 	  }
-	else if(charvar="div")
+	else if(strcmp(charvar,"div")==0)
           {
                   printk("in %s function",charvar);
                   printk("value of division is : %d",my_div(a,b));

@@ -1,4 +1,4 @@
-obj-m :=kern_add.o kern_sub.o kern_mul.o kern_div.o kern_calperm.o
+obj-m :=kern_calperm.o kern_add.o kern_sub.o kern_mul.o kern_div.o
 KDIR=/lib/modules/$(shell uname -r)/build
 PWD=$(shell pwd)
 
