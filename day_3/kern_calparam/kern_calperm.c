@@ -24,18 +24,18 @@ static int __init calperm_init(void)
 	else if(charvar="sub")
 	  {
 		  printk("in %s function",charvar);
-                  printk("value of addition is : %d",my_sub(a,b));
+                  printk("value of subtraction is : %d",my_sub(a,b));
 
 	  }
 	else if(charvar = "mul")
 	  {
 		  printk("in %s function",charvar);
-                  printk("value of addition is : %d",my_mul(a,b));
+                  printk("value of multiplication is : %d",my_mul(a,b));
 	  }
 	else if(charvar="div")
           {
                   printk("in %s function",charvar);
-                  printk("value of addition is : %d",my_div(a,b));
+                  printk("value of division is : %d",my_div(a,b));
 
    	  }
 	else 
@@ -53,15 +53,15 @@ static int __init calperm_init(void)
 		  break;
 	  case 'sub':
 		  printk("in %s function",charvar);
-                  printk("value of addition is : %d",my_sub(a,b));
+                  printk("value of subtraction is : %d",my_sub(a,b));
 		  break;
 	  case 'mul':
 		  printk("in %s function",charvar);
-                  printk("value of addition is : %d",my_mul(a,b));
+                  printk("value of multiplication is : %d",my_mul(a,b));
                   break;
 	  case 'div':
 		  printk("in %s function",charvar);
-                  printk("value of addition is : %d",my_div(a,b));
+                  printk("value of division is : %d",my_div(a,b));
                   break; 
   }*/
 
