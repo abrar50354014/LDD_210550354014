@@ -10,7 +10,7 @@ int main()
 	int fd;
 	char Ubuff[] = "hello kernel.....iam the user";
 	char Kbuff[100];
-	fd = open("/dev/mychardyn",O_RDWR,0777);
+	fd = open("/dev/chardyn",O_RDWR,0777);
 	if(fd<0)
 	{
 		printf("\nerror opening file\n");

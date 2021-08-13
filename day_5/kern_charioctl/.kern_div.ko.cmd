@@ -1,0 +1,1 @@
+cmd_/home/pi/dd-assignments/day_5/kern_charioctl/kern_div.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/dd-assignments/day_5/kern_charioctl/kern_div.ko /home/pi/dd-assignments/day_5/kern_charioctl/kern_div.o /home/pi/dd-assignments/day_5/kern_charioctl/kern_div.mod.o;  true

@@ -1,8 +1,8 @@
-cmd_/home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.o := gcc -Wp,-MMD,/home/pi/dd-assignments/day_4/kern_charrdwr/.my_devrdwr.o.d  -nostdinc -isystem /usr/lib/gcc/arm-linux-gnueabihf/8/include -I./arch/arm/include -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -fno-ipa-sra -mabi=aapcs-linux -mfpu=vfp -marm -Wa,-mno-warn-deprecated -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -Wimplicit-fallthrough -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -pg -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -DMODULE  -DKBUILD_BASENAME='"my_devrdwr"' -DKBUILD_MODNAME='"my_devrdwr"' -c -o /home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.o /home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.c
+cmd_/home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.o := gcc -Wp,-MMD,/home/pi/dd-assignments/day_5/kern_charioctl/.my_ioctl.o.d  -nostdinc -isystem /usr/lib/gcc/arm-linux-gnueabihf/8/include -I./arch/arm/include -I./arch/arm/include/generated  -I./include -I./arch/arm/include/uapi -I./arch/arm/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -fmacro-prefix-map=./= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu89 -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -fno-ipa-sra -mabi=aapcs-linux -mfpu=vfp -marm -Wa,-mno-warn-deprecated -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -O2 --param=allow-store-data-races=0 -Wframe-larger-than=1024 -fstack-protector-strong -Wno-unused-but-set-variable -Wimplicit-fallthrough -Wno-unused-const-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -pg -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wno-stringop-truncation -Wno-array-bounds -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned  -DMODULE  -DKBUILD_BASENAME='"my_ioctl"' -DKBUILD_MODNAME='"my_ioctl"' -c -o /home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.o /home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.c
 
-source_/home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.o := /home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.c
+source_/home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.o := /home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.c
 
-deps_/home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.o := \
+deps_/home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.o := \
   include/linux/kconfig.h \
     $(wildcard include/config/cc/version/text.h) \
     $(wildcard include/config/cpu/big/endian.h) \
@@ -843,7 +843,9 @@ deps_/home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.o := \
     $(wildcard include/config/arm/dma/use/iommu.h) \
     $(wildcard include/config/arch/omap.h) \
   include/linux/pm_wakeup.h \
+  /home/pi/dd-assignments/day_5/kern_charioctl/ioctl.h \
+  /home/pi/dd-assignments/day_5/kern_charioctl/cal.h \
 
-/home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.o: $(deps_/home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.o)
+/home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.o: $(deps_/home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.o)
 
-$(deps_/home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.o):
+$(deps_/home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.o):

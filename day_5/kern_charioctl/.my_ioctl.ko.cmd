@@ -1,0 +1,1 @@
+cmd_/home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.ko /home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.o /home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.mod.o;  true

@@ -39,11 +39,11 @@ static int __init chardevice_init(void)
 	int major,minor;
 	dev_t mydev;
 	//mydev=MKDEV(255,0);  //creating a device number statically
-	alloc_chrdev_region(&mydev, 0, 1, "mychardyn");
+	alloc_chrdev_region(&mydev, 0, 1, "chardyn");
 	major=MAJOR(mydev);
 	minor=MINOR(mydev);
 	printk("\n major number %d.....minor number %d\n",major,minor);
-	result=register_chrdev_region(mydev,1,"mydevice");//register device region
+	result=register_chrdev_region(mydev,1,"chardyn");//register device region
 	if(result<0)
 	{
 		printk("\nthe region is not obtainable\n");

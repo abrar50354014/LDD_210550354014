@@ -1,1 +1,0 @@
-cmd_/home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.mod := { echo  /home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.o;  echo; } > /home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.mod

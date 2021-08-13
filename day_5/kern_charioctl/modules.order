@@ -1,0 +1,5 @@
+/home/pi/dd-assignments/day_5/kern_charioctl/my_ioctl.ko
+/home/pi/dd-assignments/day_5/kern_charioctl/kern_add.ko
+/home/pi/dd-assignments/day_5/kern_charioctl/kern_sub.ko
+/home/pi/dd-assignments/day_5/kern_charioctl/kern_mul.ko
+/home/pi/dd-assignments/day_5/kern_charioctl/kern_div.ko

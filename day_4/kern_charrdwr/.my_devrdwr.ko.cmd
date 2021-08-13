@@ -1,1 +1,0 @@
-cmd_/home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.ko /home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.o /home/pi/dd-assignments/day_4/kern_charrdwr/my_devrdwr.mod.o;  true

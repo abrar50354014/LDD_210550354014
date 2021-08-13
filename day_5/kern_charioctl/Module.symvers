@@ -1,0 +1,4 @@
+0x778788bd	my_sub	/home/pi/dd-assignments/day_5/kern_charioctl/kern_sub	EXPORT_SYMBOL	
+0x608b3087	my_mul	/home/pi/dd-assignments/day_5/kern_charioctl/kern_mul	EXPORT_SYMBOL	
+0x08555df4	my_div	/home/pi/dd-assignments/day_5/kern_charioctl/kern_div	EXPORT_SYMBOL	
+0x9f9684fc	my_add	/home/pi/dd-assignments/day_5/kern_charioctl/kern_add	EXPORT_SYMBOL	

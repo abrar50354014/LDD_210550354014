@@ -1,0 +1,1 @@
+cmd_/home/pi/dd-assignments/day_5/kern_charioctl/Module.symvers := sed 's/ko$$/o/' /home/pi/dd-assignments/day_5/kern_charioctl/modules.order | scripts/mod/modpost -m -a   -o /home/pi/dd-assignments/day_5/kern_charioctl/Module.symvers -e -i Module.symvers   -T -
