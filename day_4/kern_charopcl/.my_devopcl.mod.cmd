@@ -1,1 +1,0 @@
-cmd_/home/pi/dd-assignments/day_4/kern_charopcl/my_devopcl.mod := { echo  /home/pi/dd-assignments/day_4/kern_charopcl/my_devopcl.o;  echo; } > /home/pi/dd-assignments/day_4/kern_charopcl/my_devopcl.mod
