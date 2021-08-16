@@ -1,0 +1,1 @@
+cmd_/home/pi/dd-assignments/day_6/kern_completion/modules.order := {   echo /home/pi/dd-assignments/day_6/kern_completion/completion.ko; :; } | awk '!x[$$0]++' - > /home/pi/dd-assignments/day_6/kern_completion/modules.order

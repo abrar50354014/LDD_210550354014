@@ -123,7 +123,7 @@ ssize_t synch_completion_write(struct file *filp, const char __user *Ubuff, size
 	//take data from the user
 	cnt = copy_from_user(kbuff, Ubuff, count);
 
-	msleep(1000);
+	msleep(5000);
 	complete(&synch_completion);
 
 	return count - cnt;

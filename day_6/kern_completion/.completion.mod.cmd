@@ -1,0 +1,1 @@
+cmd_/home/pi/dd-assignments/day_6/kern_completion/completion.mod := { echo  /home/pi/dd-assignments/day_6/kern_completion/completion.o;  echo; } > /home/pi/dd-assignments/day_6/kern_completion/completion.mod

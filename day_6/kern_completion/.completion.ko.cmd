@@ -1,0 +1,1 @@
+cmd_/home/pi/dd-assignments/day_6/kern_completion/completion.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/dd-assignments/day_6/kern_completion/completion.ko /home/pi/dd-assignments/day_6/kern_completion/completion.o /home/pi/dd-assignments/day_6/kern_completion/completion.mod.o;  true
