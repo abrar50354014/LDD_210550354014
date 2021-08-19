@@ -1,0 +1,1 @@
+cmd_/home/pi/dd-assignments/DD_lab_exam/Q2a/q2.ko := ld -r  -EL  --build-id=sha1  -T scripts/module.lds -o /home/pi/dd-assignments/DD_lab_exam/Q2a/q2.ko /home/pi/dd-assignments/DD_lab_exam/Q2a/q2.o /home/pi/dd-assignments/DD_lab_exam/Q2a/q2.mod.o;  true

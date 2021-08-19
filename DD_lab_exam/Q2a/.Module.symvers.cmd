@@ -1,0 +1,1 @@
+cmd_/home/pi/dd-assignments/DD_lab_exam/Q2a/Module.symvers := sed 's/ko$$/o/' /home/pi/dd-assignments/DD_lab_exam/Q2a/modules.order | scripts/mod/modpost -m -a   -o /home/pi/dd-assignments/DD_lab_exam/Q2a/Module.symvers -e -i Module.symvers   -T -
